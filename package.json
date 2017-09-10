@@ -1,0 +1,31 @@
+{
+  "name": "node-js",
+  "version": "0.2.6",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+  },
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "ejs": "2.5.6",
+    "express": "4.15.2",
+    "heroku-client": "^3.0.3"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michyang/numbers-sum"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+}
